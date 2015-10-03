@@ -43,17 +43,21 @@ sidebar:
             title: global.archives
             url: /all-archives
             icon: archive
-        search:
-            title: global.search
-            url: /#search
-            icon: search
+        #search:
+            #title: global.search
+            #url: /#search
+            #icon: search
             # `st-search-show-outputs` classes are used to open swiftype search window
-            class: st-search-show-outputs
+            #class: st-search-show-outputs
         about:
             title: global.about
             url: /#about
             icon: question
     author_links:
+        weibo:
+            title: "@Stefanie-Fan"
+            url: http://weibo.com/aolu
+            icon: weibo
         # github:
         #     title: global.github
         #     url: https://github.com/
@@ -82,11 +86,11 @@ sidebar:
         #     title: global.mail
         #     url: mailto:
         #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: rss
 
 
 # Header configuration
@@ -103,12 +107,12 @@ header:
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
-    location:
+    email: aolu11@qq.com
+    location: 中国上海
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
-    picture:
+    picture: avatar.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your google plus profile id. E.g : `+Tranquilpeak` or `123812884128439`
@@ -122,7 +126,7 @@ author:
 # 2: Display medium sidebar on large and medium screen and header bar on small screen and medium sidebar is swiped
 # 3: Display header bar on all screens and large sidebar is swiped
 # 4: Display header bar on all screens and medium sidebar is swiped
-sidebar_behavior: 2
+sidebar_behavior: 1
 # Hide sidebar on all article page to let article take full width to improve reading, and enjoy wide images and cover images. (true: enable, false: disable)
 clear_reading: true
 # Head title displayed at the top of the table of contents.
@@ -139,7 +143,8 @@ go_to_message: Go to the website
 # Current image is on Cloudinary.
 # Otherwise put your image in folder `source/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
 # and use relative url : `/assets/images/your-image.png`
-cover_image: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/v1438975482/v1.3.0-cover.jpg
+#cover_image: http://res.cloudinary.com/tranquilpeak-hexo-theme/image/upload/v1438975482/v1.3.0-cover.jpg
+cover_image: /assets/images/bg_blur.jpg
 # Your favicon located in folder `source/_images/` (development) or in `source/assets/images/` (production)
 favicon:
 # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
