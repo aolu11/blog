@@ -1,4 +1,4 @@
-title: OS X El Captain
+title: OS X El Captain 升级之路
 date: 2015-10-03 12:50:11
 tags: Mac
 categories: 数码
